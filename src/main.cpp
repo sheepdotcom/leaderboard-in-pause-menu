@@ -25,3 +25,15 @@ class $modify(LDPauseLayer, PauseLayer) {
 		FLAlertLayer::create("Uh Oh", "No PlayLayer found, you sure you in a level?", "OK")->show();
 	}
 };
+
+#include <Geode/modify/LevelLeaderboard.hpp>
+class $modify(LDLevelLeaderboard, LevelLeaderboard) {
+	bool init(GJGameLevel* p0, LevelLeaderboardType p1, LevelLeaderboardMode p2) {
+		if (!LevelLeaderboard::init(p0, p1, p2)) return false;
+
+		//Makes sure its above everything if its created without the show function
+		this->setZOrder(std::max(0x69, CCDirector::sharedDirector()->getRunningScene()->getHighestChildZ()));
+
+		return true;
+	}
+};
