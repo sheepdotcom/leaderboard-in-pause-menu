@@ -1,20 +1,20 @@
 {
-	"geode": "3.4.0",
+	"geode": "4.0.1",
 	"gd": {
-		"win": "2.206",
-		"android": "2.206",
-		"mac": "2.206"
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074"
 	},
 	"id": "sheepdotcom.leaderboard_in_pause_menu",
 	"name": "Leaderboard in Pause Menu",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "sheepdotcom",
 	"description": "",
-	"repository": "https://github.com/sheepdotcom/leaderboard-in-pause-menu",
+	"links": {"source": "https://github.com/sheepdotcom/leaderboard-in-pause-menu"},
 	"dependencies": [
 		{
 			"id": "geode.node-ids",
-			"version": ">=1.13.0",
+			"version": ">=1.17.0",
 			"importance": "required"
 		}
 	]

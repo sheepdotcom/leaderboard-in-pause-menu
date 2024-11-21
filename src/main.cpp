@@ -4,6 +4,8 @@ using namespace geode::prelude;
 
 //I'm gonna leave comments in here because I like to
 //At least this code doesn't have any catgirls in it unlike my other project :3
+// Why did I leave this comment here lol
+// Also this code is interesting but like it works
 #include <Geode/modify/PauseLayer.hpp>
 class $modify(LDPauseLayer, PauseLayer) {
 	void customSetup() {
